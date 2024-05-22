@@ -124,9 +124,7 @@ def search():
         else:
             messagebox.showerror('Invalid Entry', 'Please enter an No. to search.')
 
-    search_button = customtkinter.CTkButton(search_window, command=perform_search, font=font1, text_color='#fff',
-                                            text='Search', fg_color='#104ec9', hover_color='#0b3280',
-                                            bg_color='#d3d7f5', cursor='hand2', corner_radius=15, width=150)
+    search_button = customtkinter.CTkButton(search_window, command=perform_search, font=font1, text_color='#fff', text='Search', fg_color='#104ec9', hover_color='#0b3280', bg_color='#d3d7f5', cursor='hand2', corner_radius=15, width=150)
     search_button.place(x=125, y=120)
 
 #Data List
